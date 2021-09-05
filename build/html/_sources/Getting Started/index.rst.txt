@@ -6,3 +6,4 @@ Getting Started
    :caption: Table Of Contents
 
    Print Statements.md 
+   Variables.md

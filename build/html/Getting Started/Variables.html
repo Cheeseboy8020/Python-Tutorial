@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Getting Started &#8212; Python Tutorial 1.0 documentation</title>
+    <title>Variables &#8212; Python Tutorial 1.0 documentation</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet" />
   <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -34,8 +34,7 @@
     <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Print Statements" href="Print%20Statements.html" />
-    <link rel="prev" title="Welcome to Python Tutorial!" href="../index.html" />
+    <link rel="prev" title="Print Statements" href="Print%20Statements.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -70,7 +69,7 @@
 </p>
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1 current active has-children">
-  <a class="current reference internal" href="#">
+  <a class="reference internal" href="index.html">
    Getting Started
   </a>
   <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
@@ -78,14 +77,14 @@
    <i class="fas fa-chevron-down">
    </i>
   </label>
-  <ul>
+  <ul class="current">
    <li class="toctree-l2">
     <a class="reference internal" href="Print%20Statements.html">
      Print Statements
     </a>
    </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="Variables.html">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
      Variables
     </a>
    </li>
@@ -132,9 +131,9 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/Getting Started/index.rst.txt"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/Getting Started/Variables.md.txt"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.rst</button></a>
+                data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
             onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
@@ -157,6 +156,46 @@
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#what-is-a-variable">
+   What is a variable?
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#the-integer-variable">
+     The integer variable
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#to-see-if-x-actually-has-the-value-of-56-we-can-print-it">
+     To see if ‘x’ actually has the value of 56, we can print it.
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#the-string-variable">
+     The string variable
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#the-float-variable">
+     The float variable
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#the-boolean-variable">
+     The boolean variable
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -165,21 +204,53 @@
         
               <div>
                 
-  <div class="section" id="getting-started">
-<h1>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h1>
-<div class="toctree-wrapper compound">
-<p class="caption"><span class="caption-text">Table Of Contents</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="Print%20Statements.html">Print Statements</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="Print%20Statements.html#what-is-a-print-statement">What is a print statement?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="Print%20Statements.html#well-how-do-you-print">Well how do you print?</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="Variables.html">Variables</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="Variables.html#what-is-a-variable">What is a variable?</a></li>
-</ul>
-</li>
-</ul>
+  <div class="tex2jax_ignore mathjax_ignore section" id="variables">
+<h1>Variables<a class="headerlink" href="#variables" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="what-is-a-variable">
+<h2>What is a variable?<a class="headerlink" href="#what-is-a-variable" title="Permalink to this headline">¶</a></h2>
+<p>A variable is a letter, word, etc that you initiate to store some type of value. For starters there are different types of variables a list of them are integers, strings, floats, and boolean values</p>
+<div class="section" id="the-integer-variable">
+<h3>The integer variable<a class="headerlink" href="#the-integer-variable" title="Permalink to this headline">¶</a></h3>
+<p>To start, we have to use a variable, in our example we will be using ‘x’ to hold the value of integer 56. To give the variable (x) the value of 56 we do this:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">56</span> 
+</pre></div>
+</div>
+</div>
+<div class="section" id="to-see-if-x-actually-has-the-value-of-56-we-can-print-it">
+<h3>To see if ‘x’ actually has the value of 56, we can print it.<a class="headerlink" href="#to-see-if-x-actually-has-the-value-of-56-we-can-print-it" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">56</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Extra fact: To do math operations (math operations will be covered in the Math operations section) you will have to use the integer variable</p>
+</div>
+<div class="section" id="the-string-variable">
+<h3>The string variable<a class="headerlink" href="#the-string-variable" title="Permalink to this headline">¶</a></h3>
+<p>The string variable is where you can store any character, but note that if you store a number, it will not have math operation functions or other integer functions</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">y</span> <span class="o">=</span> <span class="s1">&#39;Hello World&#39;</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="the-float-variable">
+<h3>The float variable<a class="headerlink" href="#the-float-variable" title="Permalink to this headline">¶</a></h3>
+<p>In float variables you can have decimal numbers, something that the integer variable doesn’t posses
+We will now show you how to use the float variable using variable ‘z’ and will also print it right after assigning the
+float value of ‘3432.242’</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">z</span> <span class="o">=</span> <span class="mf">3432.242</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">z</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="the-boolean-variable">
+<h3>The boolean variable<a class="headerlink" href="#the-boolean-variable" title="Permalink to this headline">¶</a></h3>
+<p>In boolean variables you will be able to store the values of either True or False
+We will show you how to use the boolean variable using variable ‘a’ and will also print it right after assigning the boolean value of ‘True’</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
 </div>
 </div>
 
@@ -194,23 +265,14 @@
 <div class='prev-next-bottom'>
     
     <div id="prev">
-        <a class="left-prev" href="../index.html" title="previous page">
+        <a class="left-prev" href="Print%20Statements.html" title="previous page">
             <i class="prevnext-label fas fa-angle-left"></i>
             <div class="prevnext-info">
                 <p class="prevnext-label">previous</p>
-                <p class="prevnext-title">Welcome to Python Tutorial!</p>
+                <p class="prevnext-title">Print Statements</p>
             </div>
         </a>
     </div>
-     <div id="next">
-        <a class="right-next" href="Print%20Statements.html" title="next page">
-            <div class="prevnext-info">
-                <p class="prevnext-label">next</p>
-                <p class="prevnext-title">Print Statements</p>
-            </div>
-            <i class="prevnext-label fas fa-angle-right"></i>
-        </a>
-     </div>
 
 </div>
         
