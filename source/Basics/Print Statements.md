@@ -1,8 +1,7 @@
 # Print Statements
 
 ## What is a print statement?
-A print statement prints out whatever you put into to it to the console. A console is where you can see the output of your code (and inputs but that is a discussion for later). Your console is usually terminal on MacOs and Linux and commmand prompt or powershell on Windows.
-
+A print statement is a [function](../Terms.html#console) that prints whatever goes into it to the [console](../Terms.html#console).
 ## Well how do you print?
 Lets start of by simply printing Hello World
 To print a statement like Hello World, we use the print statement (keep in mind that you can use single or double quotes)
