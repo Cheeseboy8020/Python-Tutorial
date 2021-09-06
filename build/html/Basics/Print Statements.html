@@ -5,7 +5,7 @@
     <meta name="color-scheme" content="light dark"><link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Variables" href="Variables.html" /><link rel="prev" title="Setting Up Python" href="Setting%20Up%20Python.html" />
 
     <meta name="generator" content="sphinx-4.1.2, furo 2021.08.17.beta43"/>
-        <title>Print Statements - Python Tutorial documentation</title>
+        <title>Print Function - Python Tutorial documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?digest=910ac4ccc9d7c023151c34010d7b500fb9777a51" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?digest=16fb25fabf47304eee183a5e9af80b1ba98259b1" />
@@ -155,7 +155,7 @@
 <ul class="current">
 <li class="toctree-l1 current has-children"><a class="reference internal" href="index.html">Basics</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="Setting%20Up%20Python.html">Setting Up Python</a></li>
-<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Print Statements</a></li>
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Print Function</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Variables.html">Variables</a></li>
 </ul>
 </li>
@@ -163,6 +163,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../OOP/classes.html">Classes</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="../Glossary.html">Glossary</a></li>
 </ul>
 
 </div>
@@ -188,38 +189,33 @@
             <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
           </label>
         </div>
-        <div class="tex2jax_ignore mathjax_ignore section" id="print-statements">
-<h1>Print Statements<a class="headerlink" href="#print-statements" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="what-is-a-print-statement">
-<h2>What is a print statement?<a class="headerlink" href="#what-is-a-print-statement" title="Permalink to this headline">¶</a></h2>
-<p>A print statement is a <a class="reference external" href="../Glossary.html#function">function</a> that prints whatever goes into it to the <a class="reference external" href="../Glossary.html#console">console</a>.</p>
+        <div class="tex2jax_ignore mathjax_ignore section" id="print-function">
+<h1>Print Function<a class="headerlink" href="#print-function" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="what-is-the-print-function">
+<h2>What is the print function?<a class="headerlink" href="#what-is-the-print-function" title="Permalink to this headline">¶</a></h2>
+<p>A print statement is a <a class="reference external" href="../Glossary.html#function">function</a> that prints whatever goes into it to the <a class="reference external" href="../Glossary.html#console">console</a>.
+The print statement has 1 parameter and it will print out that parameter.</p>
 </div>
-<div class="section" id="well-how-do-you-print">
-<h2>Well how do you print?<a class="headerlink" href="#well-how-do-you-print" title="Permalink to this headline">¶</a></h2>
-<p>Lets start of by simply printing Hello World
-To print a statement like Hello World, we use the print statement (keep in mind that you can use single or double quotes)</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">"This is where what you want to say goes"</span><span class="p">)</span>
-</pre></div>
-</div>
-<p>Using the print statement, lets print ‘Hello World’!</p>
+<div class="section" id="how-do-i-you-use-it">
+<h2>How do I you use it?<a class="headerlink" href="#how-do-i-you-use-it" title="Permalink to this headline">¶</a></h2>
+<p>Lets start of by printing Hello World
+Since Hello World is a <a class="reference external" href="../Glossary.html#string">string</a> we need to put quotation marks around it. (We will talk more about <a class="reference external" href="../Glossary.html#string">strings</a> later).</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">"Hello World"</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>If you printed this statement, in your terminal console of your text editor, IDE or computer you will see the words ‘Hello World’
-#In the example above you can see that we printed the string ‘Hello World’</p>
-<p>If you would like to print an integer you do this print(your integer value)
-Lets do this by printing the integer 5</p>
+<blockquote>
+<div><p><strong><em>NOTE:</em></strong> You do not need put a <a class="reference external" href="../Glossary.html#string">string</a> you can put any <a class="reference external" href="../Glossary.html#datatype">data type</a>.</p>
+</div></blockquote>
+<p>If you printed this statement, in your <a class="reference external" href="../Glossary.html#console">console</a> you will see the words ‘Hello World’</p>
+<p>In the example above you can see that we printed the <a class="reference external" href="../Glossary.html#string">string</a> ‘Hello World’</p>
+<p>If you would like to print an <a class="reference external" href="../Glossary.html#integer">integer</a> you can just put the number in the print statement.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>In your terminal you can see that we printed the value 5</p>
-<p>Now lets print the value of a variable ‘x’ that equals the integer 10</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">10</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-</pre></div>
 </div>
-<p>Now, in your terminal you can see the number 10</p>
-<p>That is the basics of the print statement you will learn more about different ways the print statement can be used in other topics like math operations (mathop.py) and etc.</p>
+<div class="section" id="why-do-i-need-to-know-this">
+<h2>Why do I need to know this?<a class="headerlink" href="#why-do-i-need-to-know-this" title="Permalink to this headline">¶</a></h2>
+<p>Printing will be used very frequently in python. It can be used for debugging and visualizing your code. In our tutorial we will make use of printing a lot.</p>
 </div>
 </div>
 
@@ -277,9 +273,10 @@ Lets do this by printing the integer 5</p>
         <div class="toc-tree-container">
           <div class="toc-tree">
             <ul>
-<li><a class="reference internal" href="#">Print Statements</a><ul>
-<li><a class="reference internal" href="#what-is-a-print-statement">What is a print statement?</a></li>
-<li><a class="reference internal" href="#well-how-do-you-print">Well how do you print?</a></li>
+<li><a class="reference internal" href="#">Print Function</a><ul>
+<li><a class="reference internal" href="#what-is-the-print-function">What is the print function?</a></li>
+<li><a class="reference internal" href="#how-do-i-you-use-it">How do I you use it?</a></li>
+<li><a class="reference internal" href="#why-do-i-need-to-know-this">Why do I need to know this?</a></li>
 </ul>
 </li>
 </ul>

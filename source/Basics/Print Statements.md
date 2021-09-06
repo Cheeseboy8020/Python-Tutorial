@@ -1,36 +1,25 @@
-# Print Statements
+# Print Function
 
-## What is a print statement?
+## What is the print function?
 A print statement is a [function](../Glossary.html#function) that prints whatever goes into it to the [console](../Glossary.html#console).
-## Well how do you print?
-Lets start of by simply printing Hello World
-To print a statement like Hello World, we use the print statement (keep in mind that you can use single or double quotes)
-```python
-print("This is where what you want to say goes")
-```
-Using the print statement, lets print 'Hello World'!
+The print statement has 1 parameter and it will print out that parameter.
+## How do I you use it?
+Lets start of by printing Hello World
+Since Hello World is a [string](../Glossary.html#string) we need to put quotation marks around it. (We will talk more about [strings](../Glossary.html#string) later).
 ```python
 print("Hello World")
 ```
-If you printed this statement, in your terminal console of your text editor, IDE or computer you will see the words 'Hello World'
-#In the example above you can see that we printed the string 'Hello World'
 
-If you would like to print an integer you do this print(your integer value)
-Lets do this by printing the integer 5
+> **_NOTE:_** You do not need put a [string](../Glossary.html#string) you can put any [data type](../Glossary.html#datatype).
+
+If you printed this statement, in your [console](../Glossary.html#console) you will see the words 'Hello World'
+
+In the example above you can see that we printed the [string](../Glossary.html#string) 'Hello World'
+
+If you would like to print an [integer](../Glossary.html#integer) you can just put the number in the print statement.
 
 ```python
 print(5)
 ```
-
-In your terminal you can see that we printed the value 5
-
-Now lets print the value of a variable 'x' that equals the integer 10
-```python
-x = 10
-print(x)
-```
-
-Now, in your terminal you can see the number 10
-
-
-That is the basics of the print statement you will learn more about different ways the print statement can be used in other topics like math operations (mathop.py) and etc.
+## Why do I need to know this?
+Printing will be used very frequently in python. It can be used for debugging and visualizing your code. In our tutorial we will make use of printing a lot.

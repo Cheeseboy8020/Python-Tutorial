@@ -15,7 +15,13 @@
 <dl>
     <dt><a id=datatype>Data Type</a><dt>
     <dd>Work In Progress</dd>
-    <dt><a id="var">Variable</a></dt>
+    <dt><a id=string>String</a><dt>
+    <dd>Work In Progress</dd>
+    <dt><a id=integer>Integer</a><dt>
+    <dd>Work In Progress</dd>
+    <dt><a id=boolean>Boolean</a><dt>
+    <dd>Work In Progress</dd>
+    <dt><a id="variable">Variable</a></dt>
     <dd>Work In Progress</dd>                                   
     <dt><a id="function">Function</a></dt>
     <dd>Work In Progress</dd> 
