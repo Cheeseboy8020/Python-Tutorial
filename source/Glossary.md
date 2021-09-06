@@ -1,4 +1,4 @@
-# Programming Terms
+# Glossary
 
 ## Before Programming
 <dl>                                          
