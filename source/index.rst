@@ -4,4 +4,4 @@
 
    Basics/index.rst
    OOP/index.rst
-   Terms.md
+   Glossary.md
