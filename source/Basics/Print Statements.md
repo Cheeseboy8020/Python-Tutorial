@@ -1,7 +1,7 @@
 # Print Statements
 
 ## What is a print statement?
-A print statement is a [function](../Terms.html#console) that prints whatever goes into it to the [console](../Terms.html#console).
+A print statement is a [function](../Terms.html#function) that prints whatever goes into it to the [console](../Terms.html#console).
 ## Well how do you print?
 Lets start of by simply printing Hello World
 To print a statement like Hello World, we use the print statement (keep in mind that you can use single or double quotes)
